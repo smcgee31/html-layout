@@ -6,38 +6,51 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{di
 body,header,main,footer,div,article,aside,details,figcaption,figure,hgroup,menu,nav,input,textarea,select,a,p,ul,ol,li,span{box-sizing: border-box;}
 /* end reset */
 
+body {
+  max-width: 900px;
+}
+
 .header-container {
+  background: #D8D8D8;
   width: 100%;
-  height: 150px;
-  background: darkgray;
+  height: 100px;
 }
 
-.left-aside {
-  width: 20%;
-  height: 800px;
-  background: lightgray;
-  position: absolute;
-  left: 0;
+.logo-container {
+  background: #4A90E2;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
-.right-aside {
-  width: 20%;
-  height: 800px;
-  background: lightgray;
-  position: absolute;
-  right: 0;
+.content p {
+  width: 100%;
+  font: 24px "Arial";
+  padding: 40px;
 }
 
-.content-main {
-  width: 80%;
-  height: 650px;
-  background: #e2dcdc;
-
+.blue {
+  background: #4A90E2;
+  width: 100%;
+  height: 120px;
 }
 
-.footer-container {
-  width: 60%;
-  height: 150px;
-  background: darkgray;
-  margin: auto;
+.teal {
+  background: #50E3C2;
+  width: 100%;
+  height: 120px;
+}
+
+.green {
+  background: #B8E986;
+  width: 100%;
+  height: 120px;
+}
+
+.yellow {
+  background: #F8E71C;
+  width: 100%;
+  height: 120px;
 }
